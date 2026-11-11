@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0b0a10">
+  <meta name="description" content="Arianna Sosa — aspiring software developer exploring technology, creativity and human-centered solutions.">
+  <title>Arianna Sosa — Creative Technologist</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <canvas class="starfield" id="starfield" aria-hidden="true"></canvas>
+  <div class="noise" aria-hidden="true"></div>
+  <div class="cursor-glow" id="cursorGlow" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="Arianna Sosa home"><span class="brand-mark">a<span>.</span></span><span class="brand-name">ARIANNA SOSA</span></a>
+    <nav class="nav" id="nav">
+      <a href="#about">About</a><a href="#work">Selected work</a><a href="#skills">Skills</a><a href="#certifications">Certificates</a><a href="#contact">Contact</a>
+    </nav>
+    <a class="availability" href="#contact"><span class="pulse-dot"></span> OPEN TO OPPORTUNITIES</a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation">☰</button>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="home">
+      <div class="hero-grid">
+        <div class="hero-copy reveal">
+          <div class="eyebrow"><span class="eyebrow-line"></span> PORTFOLIO / 2026 — 2027</div>
+          <p class="hero-kicker">HELLO, WORLD. I'M</p>
+          <h1>Arianna<br><span class="name-outline">Sosa<span class="pink-dot">.</span></span></h1>
+          <div class="hero-role"><span class="role-bracket">[</span> Aspiring Software Developer <span class="role-bracket">]</span></div>
+          <p class="hero-description">I turn curious questions into thoughtful digital experiences — blending code, creativity, and a little bit of pink.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#work">Explore my work <span>↗</span></a>
+            <a class="text-link" href="#contact">Let's connect <span>↗</span></a>
+          </div>
+          <div class="hero-meta"><span>BASED IN EL SALVADOR</span><span class="meta-divider"></span><span>BUILDING WITH PURPOSE</span></div>
+        </div>
+
+        <div class="hero-art reveal">
+          <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="orbit orbit-three"></div>
+          <div class="orbit-label label-top">CREATIVE<br>BY NATURE</div>
+          <div class="orbit-label label-bottom">LOGIC<br>IN MOTION</div>
+          <div class="portrait-frame">
+            <div class="portrait-top"><span>AS / 001</span><span>✳</span></div>
+            <img class="portrait-photo" src="arianna-portrait.png" alt="Portrait of Arianna Sosa">
+            <div class="portrait-bottom"><span>DESIGN × DEVELOPMENT</span><span>2026</span></div>
+          </div>
+          <div class="mascot" id="mascot" role="img" aria-label="A tiny animated pink robot mascot">
+            <div class="mascot-antenna"></div><div class="mascot-head"><div class="mascot-ear left"></div><div class="mascot-ear right"></div><div class="mascot-eyes"><i></i><i></i></div><div class="mascot-cheek left"></div><div class="mascot-cheek right"></div><div class="mascot-mouth"></div></div><div class="mascot-body"><span>♡</span></div><div class="mascot-foot left"></div><div class="mascot-foot right"></div>
+          </div>
+          <div class="floating-chip chip-code"><span>⌘</span> curious mind.exe</div>
+          <div class="floating-chip chip-status"><span class="pulse-dot"></span> currently learning</div>
+          <div class="spark spark-one">✦</div><div class="spark spark-two">✳</div><div class="spark spark-three">·</div>
+        </div>
+      </div>
+      <div class="scroll-cue"><span class="scroll-line"></span> SCROLL TO EXPLORE</div>
+      <div class="hero-index">01 <span>/</span> 05</div>
+    </section>
+
+    <section class="marquee-band" aria-label="Areas of interest"><div class="marquee-track"><span>SOFTWARE DEVELOPMENT ✳</span><span>HUMAN-CENTERED DESIGN ✳</span><span>ARTIFICIAL INTELLIGENCE ✳</span><span>CYBERSECURITY ✳</span><span>SOFTWARE DEVELOPMENT ✳</span><span>HUMAN-CENTERED DESIGN ✳</span><span>ARTIFICIAL INTELLIGENCE ✳</span><span>CYBERSECURITY ✳</span></div></section>
+
+    <section class="section-wrap about-section" id="about">
+      <div class="section-heading reveal"><div><span class="section-number">01 / ABOUT</span><h2>Curiosity is my<br><em>starting point.</em></h2></div><p class="section-side-note">A little about the person<br>behind the pixels <span>↘</span></p></div>
+      <div class="about-layout">
+        <div class="about-stamp reveal"><div class="stamp-ring">ALWAYS LEARNING · ALWAYS BUILDING ·</div><div class="stamp-center">A<span>.</span></div><span class="stamp-caption">MADE OF<br>QUESTIONS</span></div>
+        <div class="about-copy reveal">
+          <p class="about-lead">I'm an aspiring developer from El Salvador who loves exploring how technology can make everyday experiences smarter, simpler, and more meaningful.</p>
+          <p>My interest in technology comes from the possibility of transforming an idea into something people can actually use. I enjoy the process of learning, experimenting, solving problems, and discovering how thoughtful design and code can work together.</p>
+          <p>I'm currently strengthening my foundations in web development, digital tools, and English. I'm especially curious about the future of artificial intelligence and cybersecurity, and how both fields can help build technology people can trust.</p>
+          <div class="about-facts"><div><strong>01</strong><span>Curious<br>by default</span></div><div><strong>02</strong><span>Learning<br>in public</span></div><div><strong>03</strong><span>Ideas into<br>experiences</span></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="work-section arcade-section" id="work">
+      <div class="section-wrap">
+        <div class="section-heading reveal">
+          <div><span class="section-number">02 / SELECTED WORK — ARCADE MODE</span><h2>Choose your next<br><em>adventure.</em></h2></div>
+          <p class="section-side-note">Three projects.<br>Three different worlds <span>↘</span></p>
+        </div>
+
+        <div class="arcade-intro reveal">
+          <p>Every project is a new level: explore the idea, discover how it was built, and open its case study.</p>
+          <div class="arcade-player"><span class="player-pulse"></span><span>PLAYER 01</span><b>ARIANNA</b><span class="player-divider">/</span><span>3 WORLDS AVAILABLE</span></div>
+        </div>
+
+        <div class="arcade-machine reveal" aria-label="Interactive project arcade">
+          <div class="arcade-machine-top">
+            <div class="arcade-brand"><span class="arcade-brand-icon">✳</span> PROJECT<span>ARCADE</span><small>INSERT CURIOSITY TO PLAY</small></div>
+            <div class="arcade-top-status"><span class="arcade-live-dot"></span> SYSTEM ONLINE <span class="arcade-top-divider">|</span> 2026 EDITION</div>
+          </div>
+
+          <div class="arcade-screen">
+            <div class="arcade-screen-grid"></div>
+            <div class="arcade-screen-scan"></div>
+            <div class="arcade-screen-head"><span id="arcadeLevel">LEVEL 01 / 03</span><span>SELECTED PROJECT <i>✦</i></span></div>
+            <div class="arcade-stage" id="arcadeStage" data-world="edumatch">
+              <div class="world world-edu" aria-hidden="true">
+                <div class="edu-portal"><div class="edu-portal-core">edu<br><b>match.</b></div><i></i><i></i><i></i></div>
+                <div class="edu-float-card edu-card-one"><small>YOUR NEXT STEP</small><b>Future starts here.</b><span>EXPLORE ↗</span></div>
+                <div class="edu-float-card edu-card-two"><span>✳</span><b>Find your path</b><small>UNIVERSITY · TECH</small></div>
+                <div class="edu-world-star">✦</div>
+              </div>
+              <div class="world world-moda" aria-hidden="true">
+                <div class="moda-halo"></div><div class="moda-hanger">⌁</div><div class="moda-dress"></div>
+                <div class="moda-world-title">STYLE<br><b>LAB.</b></div><div class="moda-world-sticker">✿</div>
+                <div class="moda-world-caption">PLAYFUL STYLE / SMART IDEAS</div>
+              </div>
+              <div class="world world-hush" aria-hidden="true">
+                <div class="hush-orbit"></div><div class="hush-bag">H</div><div class="hush-world-title">HUSH<br><b>STUDIO.</b></div><div class="hush-star">✦</div><div class="hush-world-caption">FASHION / CAMPAIGN / VISUAL STORYTELLING</div>
+              </div>
+            </div>
+            <div class="arcade-screen-foot"><span>✦ INTERACTIVE PROJECT SELECTOR</span><span id="arcadeScreenHint">PRESS PLAY TO EXPLORE</span></div>
+          </div>
+
+          <div class="arcade-console">
+            <div class="arcade-selector">
+              <div class="arcade-selector-label"><span>CHOOSE A WORLD</span><span>01 — 03</span></div>
+              <div class="arcade-slots" role="group" aria-label="Choose a project">
+                <button class="arcade-slot active" type="button" data-arcade="edumatch" aria-pressed="true"><span class="slot-number">01</span><span class="slot-name">FUTURE<br>FINDER</span><span class="slot-icon">✧</span></button>
+                <button class="arcade-slot" type="button" data-arcade="modakids" aria-pressed="false"><span class="slot-number">02</span><span class="slot-name">STYLE<br>LAB</span><span class="slot-icon">✿</span></button>
+                <button class="arcade-slot" type="button" data-arcade="hush" aria-pressed="false"><span class="slot-number">03</span><span class="slot-name">HUSH<br>STUDIO</span><span class="slot-icon">✦</span></button>
+              </div>
+              <div class="arcade-controls"><span><kbd>←</kbd> <kbd>→</kbd> TO SWITCH</span><span>SELECT A LEVEL <b>↗</b></span></div>
+            </div>
+
+            <div class="arcade-project-info" aria-live="polite">
+              <div class="arcade-project-meta"><span id="arcadeCategory">EDUCATION / WEB PLATFORM</span><span class="arcade-project-status" id="arcadeStatus">IN DEVELOPMENT</span></div>
+              <h3 id="arcadeTitle">EduMatch<span>®</span></h3>
+              <p id="arcadeDescription">Helping students in El Salvador discover universities and technical programs that fit their goals, location, and preferred study format.</p>
+              <div class="arcade-tech" id="arcadeTech"><span>WEB DEVELOPMENT</span><span>UI / UX</span><span>EDTECH</span></div>
+              <div class="arcade-actions"><button class="arcade-play" id="arcadePlay" type="button">PLAY CASE STUDY <span>↗</span></button><span class="arcade-play-note">OPEN THE PROJECT FILE</span></div>
+            </div>
+          </div>
+          <div class="arcade-machine-bottom"><span>ARCADE OS // V1.0</span><span>MADE OF IDEAS & A LITTLE PINK MAGIC</span><span>© ARIANNA SOSA</span></div>
+        </div>
+
+        <div class="arcade-repo-note reveal">
+          <span class="repo-note-icon">＋</span>
+          <div><b>PROJECT LINKS & VISUALS</b><p>Open each project to explore its live website, GitHub repository, and the screenshots supplied for this portfolio.</p></div>
+          <span class="repo-note-tag">EDITABLE</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-wrap skills-section" id="skills">
+      <div class="section-heading reveal"><div><span class="section-number">03 / TOOLKIT</span><h2>My creative<br><em>toolbox.</em></h2></div><p class="section-side-note">Skills I'm growing,<br>tools I explore <span>↘</span></p></div>
+      <div class="skills-layout">
+        <div class="skill-panel reveal"><div class="panel-label">01 — DEVELOPMENT</div><div class="skill-row"><span>HTML & CSS</span><span class="skill-level">FOUNDATIONS</span></div><div class="skill-row"><span>JavaScript</span><span class="skill-level">LEARNING</span></div><div class="skill-row"><span>MySQL</span><span class="skill-level">BASIC</span></div><div class="skill-row"><span>Figma</span><span class="skill-level">BASIC</span></div><div class="skill-row"><span>Microsoft Excel</span><span class="skill-level">MOS / EXPERT</span></div></div>
+        <div class="skill-panel skill-panel-pink reveal"><div class="panel-label">02 — BEYOND CODE</div><div class="skill-orbit"><div class="skill-orbit-core">AS<span>✳</span></div><span class="orbit-word ow-one">ENGLISH B1</span><span class="orbit-word ow-two">PROBLEM SOLVING</span><span class="orbit-word ow-three">CREATIVITY</span><span class="orbit-word ow-four">AI EXPLORATION</span></div><p class="skill-note">I believe strong technology comes from curiosity, communication, and a willingness to keep learning.</p></div>
+      </div>
+      <div class="learning-strip reveal"><span class="pulse-dot"></span><span>NOW EXPLORING</span><b>AI fundamentals</b><i>✳</i><b>Cybersecurity</b><i>✳</i><b>JavaScript</b></div>
+    </section>
+
+    <section class="certifications-section section-wrap" id="certifications">
+      <div class="section-heading reveal"><div><span class="section-number">04 / CERTIFICATIONS</span><h2>Learning with<br><em>proof.</em></h2></div><p class="section-side-note">Credentials & milestones<br>that keep me growing <span>↘</span></p></div>
+      <div class="certificate-grid reveal">
+        <article class="certificate-card"><span class="certificate-icon">✳</span><div><h3>Microsoft Office Specialist — Excel</h3><p>Microsoft Excel certification</p><span class="certificate-placeholder">ADD CERTIFICATE IMAGE OR LINK</span></div></article>
+        <article class="certificate-card"><span class="certificate-icon">✦</span><div><h3>Microsoft Excel Expert</h3><p>Advanced Excel certification</p><span class="certificate-placeholder">ADD CERTIFICATE IMAGE OR LINK</span></div></article>
+      </div>
+    </section>
+
+    <section class="journey-section">
+      <div class="section-wrap journey-layout">
+        <div class="journey-title reveal"><span class="section-number">04 / THE JOURNEY</span><h2>Still becoming.<br><em>Always building.</em></h2><p>Every skill starts somewhere. Here's what I'm learning along the way.</p></div>
+        <div class="timeline reveal"><div class="timeline-item"><span class="timeline-year">2024 — NOW</span><div><h3>¡Supérate! ADOC</h3><p>English, computer skills, and values-based learning.</p></div><span class="timeline-pin"></span></div><div class="timeline-item"><span class="timeline-year">2025 — NOW</span><div><h3>Bachillerato General</h3><p>Building academic foundations and exploring technology through projects.</p></div><span class="timeline-pin"></span></div><div class="timeline-item"><span class="timeline-year">2025 — 2026</span><div><h3>Certifications</h3><p>TOEIC Listening & Reading — 690 · Microsoft Office Specialist Excel · Excel Expert.</p></div><span class="timeline-pin"></span></div><div class="timeline-item"><span class="timeline-year">NEXT CHAPTER</span><div><h3>Software · AI · Security</h3><p>Growing toward a career creating useful, thoughtful, and trustworthy technology.</p></div><span class="timeline-pin"></span></div></div>
+      </div>
+    </section>
+
+    <section class="contact-section section-wrap" id="contact">
+      <div class="contact-card reveal"><div class="contact-orb"></div><span class="section-number">05 / LET'S CONNECT</span><h2>Have a good<br>idea? <em>Let's build it.</em></h2><p>I'm always happy to connect, learn from others, and explore opportunities to grow.</p><div class="contact-actions"><a class="button button-primary" href="mailto:ariliz0912@gmail.com">Send me an email ↗</a><a class="button button-ghost" href="https://www.linkedin.com/in/ariannasosa17" target="_blank" rel="noreferrer">LinkedIn ↗</a><a class="button button-ghost" href="https://github.com/ariannaasosa" target="_blank" rel="noreferrer">GitHub ↗</a></div><div class="contact-bottom"><span>EL SALVADOR · OPEN TO LEARNING</span><span>LET'S MAKE SOMETHING MATTER.</span></div></div>
+      <footer><a class="brand" href="#home"><span class="brand-mark">a<span>.</span></span><span class="brand-name">ARIANNA SOSA</span></a><span>DESIGNED & BUILT WITH CURIOSITY <b>♡</b></span><a href="#home">BACK TO TOP ↑</a></footer>
+    </section>
+  </main>
+
+  <div class="modal-backdrop" id="modalBackdrop" aria-hidden="true">
+    <section class="case-modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal-close" id="modalClose" aria-label="Close case study">×</button>
+      <div class="modal-top"><span id="modalCode">CASE STUDY / 001</span><span>PROJECT NOTES</span></div>
+      <h2 id="modalTitle">Project title</h2><p class="modal-intro" id="modalIntro"></p>
+      <div class="modal-tabs" role="tablist"><button class="modal-tab active" data-tab="challenge">THE CHALLENGE</button><button class="modal-tab" data-tab="process">THE PROCESS</button><button class="modal-tab" data-tab="solution">THE SOLUTION</button><button class="modal-tab" data-tab="results">THE RESULTS</button></div>
+      <div class="modal-content" id="modalContent"></div>
+      <div class="modal-edit-note">PROJECT DETAILS · Links and screenshots are included where they were provided. ModaKids is linked to its published Netlify website; a separate GitHub repository was not included.</div>
+      <div class="modal-links"><div class="modal-project-actions"><a id="modalWebsite" href="#" target="_blank" rel="noreferrer">LIVE WEBSITE ↗</a><a id="modalGithub" href="#" target="_blank" rel="noreferrer">GITHUB REPOSITORY ↗</a></div><span id="modalTech"></span></div>
+    </section>
+  </div>
+  <div class="toast" id="toast">Thanks for exploring ✦</div>
+  <script src="script.js"></script>
+</body>
+</html>
